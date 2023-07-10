@@ -79,7 +79,7 @@ In the body, choose the JSON format in raw. Then fill in the field as follows
     "name": "Lebon Carim",
     "mail": "lebon.carim@gmail.com",
     "phoneNumber": "+23659854555685",
-    "transferAmount: 1000
+    "transferAmount": 1000
 
 }
 ```
@@ -103,7 +103,7 @@ Same procedure as the POST method, just add the identifier of the element to be 
         "name": "Killiam ",
         "mail": "karim@gmail.com",
         "phoneNumber": "+123456789",
-        "transferAmount: 2000
+        "transferAmount": 2000
 }
 ```
 
