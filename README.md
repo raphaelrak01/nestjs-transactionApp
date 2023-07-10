@@ -74,7 +74,7 @@ To create an element, choose the POST method and enter the url:
 
 In the body, choose the JSON format in raw. Then fill in the field as follows
 
-
+```json
 {
     "name": "Lebon Carim",
     "mail": "lebon.carim@gmail.com",
@@ -82,6 +82,7 @@ In the body, choose the JSON format in raw. Then fill in the field as follows
     "transferAmount: 1000
 
 }
+```
 
 
 Get() method for reading elements in the database:
@@ -96,6 +97,7 @@ The information contained in the database will appear below.
 PUT() method for updating an element in the database:
 
 Same procedure as the POST method, just add the identifier of the element to be modified:
+```json
 {
         "_id": "64a6addf94df6dc8a1d1f63e",
         "name": "Killiam ",
@@ -103,13 +105,13 @@ Same procedure as the POST method, just add the identifier of the element to be 
         "phoneNumber": "+123456789",
         "transferAmount: 2000
 }
-
+```
 
 DELETE() method for deleting an element from the database:
 
 All you need to do is enter the identifier of the item to be deleted.
-
+```json
 {
     "_id": "64a6addf94df6dc8a1d1f63e"
 }
-
+```
