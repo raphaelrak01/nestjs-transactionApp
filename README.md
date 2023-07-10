@@ -33,6 +33,7 @@ In order for the transaction-app to function correctly, these operations must be
 
 In your code editor where the project is open, open a terminal
 and enter the following commands to install the necessary dependencies.
+
 	- npm i mongoose
 	- npm i @nestjs/mongoose
 	- npm i @nestjs/config
@@ -67,10 +68,12 @@ Here's the link to the collection: https://api.postman.com/collections/28189766-
 
 Post() method for creating an element:
 
-To create an element, choose the POST method and enter the url: 
+To create an element, choose the POST method and enter the url:
+
 	- http://localhost:3000/orders
 
 In the body, choose the JSON format in raw. Then fill in the field as follows
+
 
 {
     "name": "Lebon Carim",
@@ -84,6 +87,7 @@ In the body, choose the JSON format in raw. Then fill in the field as follows
 Get() method for reading elements in the database:
 
 you need to choose the GET method and then enter the url: 
+
 	- http://localhost:3000/orders
 
 The information contained in the database will appear below.
@@ -91,7 +95,7 @@ The information contained in the database will appear below.
 
 PUT() method for updating an element in the database:
 
-Same procedure as the POST method, just add the identifier of the element to be modified
+Same procedure as the POST method, just add the identifier of the element to be modified:
 {
         "_id": "64a6addf94df6dc8a1d1f63e",
         "name": "Killiam ",
